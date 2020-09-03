@@ -24,6 +24,11 @@ python -c 'import sys; sys.path.insert(0, "/usr/share/yum-cli"); import cli; ybc
 PRINT_JSON
 
 cmd = shell_out(rhel_updates)
+unless cmd.exitstatus == 0
+# essentially we want https://github.com/chef/inspec/issues/1205
+	STDERR.puts 'Could not determine patch status.'
+	return nil
+end
 
 # skip extraneous message "Loaded plugins.." 
 #

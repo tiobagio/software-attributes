@@ -1,7 +1,7 @@
 DEPENDENCIES
-  patch-updates
+  software-attributes
     path: .
     metadata: true
 
 GRAPH
-  patch-updates (0.1.4)
+  software-attributes (0.1.1)
