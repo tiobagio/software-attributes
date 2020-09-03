@@ -14,6 +14,7 @@ PRINT_JSON
 cmd = shell_out(rhel_packages)
 json_out = JSON.parse(cmd.stdout)
 installed = json_out['installed']
+node.override['software-installed'] = installed
 #File.write("/tmp/installed.out", installed)
 
 ## get availables updates/patches

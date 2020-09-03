@@ -4,7 +4,7 @@ maintainer_email 'tbagio@chef.io'
 license 'All Rights Reserved'
 description 'Configure software-installed and software-updates node attributes'
 long_description 'List software installed and available updates as node attributes'
-version '0.1.2'
+version '0.1.3'
 chef_version '>= 14.0'
 
 # The `issues_url` points to the location where issues for this cookbook are

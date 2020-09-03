@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  software-attributes (0.1.1)
+  software-attributes (0.1.2)
