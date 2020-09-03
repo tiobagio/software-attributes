@@ -38,7 +38,7 @@ installed.each do |pkg|
 	end
 end
 node.override['software-updates'] = package_updates
-puts package_updates
+#puts package_updates
 
 ## yum history
 
