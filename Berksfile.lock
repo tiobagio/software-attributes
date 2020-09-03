@@ -1,0 +1,7 @@
+DEPENDENCIES
+  patch-updates
+    path: .
+    metadata: true
+
+GRAPH
+  patch-updates (0.1.4)
